@@ -1,0 +1,30 @@
+.t1{
+    color: red;
+    
+}
+
+#foto, #opis{
+    border: 5px blue dashed;
+    margin: 20px;
+    padding: 10px;
+}
+
+#opis{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+#foto{
+    border-radius: 20%;
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.3s linear;
+}
+
+#foto:hover{
+    transform: scale(1,5);
+}
+
+#opis:hover{
+     background-image: url('kotek.png'); 
+  background-position: center; 
+}
